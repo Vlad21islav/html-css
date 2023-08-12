@@ -16,6 +16,7 @@ body {
 
 .info {
     display: flex;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
