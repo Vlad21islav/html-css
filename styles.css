@@ -16,12 +16,12 @@ body {
 
 .info {
     display: flex;
-    text-align: center;
 }
 
 @media (max-width: 600px) {
     .info {
         display: block;
+        text-align: center;
     }
 }
 
