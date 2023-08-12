@@ -7,9 +7,11 @@
     <body>
         <div class="info">
             <img src="https://raw.githubusercontent.com/Vlad21islav/Mars_Protaction/main/images/galactic_warships_images/icons/MP_icon.png" alt="картинка не найдена" class="MP_icon">
-            <h1>Mars Protaction</h1>
-            <p><em>Mars Protaction</em></p>
-            <p><strong>Mars Protaction</strong></p>
+            <div class="info-text">
+                <h1>Mars Protaction</h1>
+                <p><em>Mars Protaction</em></p>
+                <p><strong>Mars Protaction</strong></p>
+            </div>
         </div>
 
         <hr />
@@ -56,22 +58,26 @@
         <h2>Связаться со мной</h2>
 
         <form action="">
-            <label for="name">Введите ваше имя</label>
-            <input type="text" id="name" placeholder="Имя">
+            <div class="from-group">
+                <label for="name">Введите ваше имя</label>
+                <input type="text" id="name" placeholder="Имя">
 
-            <br>
+                <br>
 
-            <label for="email">Введите ваш email</label>
-            <input type="email" id="email" placeholder="Email">
+                <label for="email">Введите ваш email</label>
+                <input type="email" id="email" placeholder="Email">
 
-            <br>
+                <br>
 
-            <label for="text">Введите сообщение</label>
-            <textarea type="email" id="text" placeholder="text" rows="1"></textarea>
+                <label for="text">Введите сообщение</label>
+                <textarea type="email" id="text" placeholder="text" rows="1"></textarea>
 
-            <br>
+                <br>
 
-            <input type="submit">
+                <div>
+                    <input type="submit" value="Отправить" class="btn">
+                </div>
+            </div>
         </form>
     </body>
 </html>

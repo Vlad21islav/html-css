@@ -7,9 +7,21 @@ body {
 }
 
 .MP_icon {
+    margin-top: 5%;
+    margin-left: 5%;
     width: 200px;
     border-radius: 20%;
     box-shadow: -15px -15px 5px rgb(100, 100, 100);
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .info {
+        display: block;
+    }
 }
 
 .info p {
@@ -41,4 +53,31 @@ a:hover {
 .table {
     width: 100%;
     background-color: rgb(212, 245, 232);
+}
+
+.from-group > input,
+.from-group > textarea {
+    border: none;
+    border: 2px solid #949090;
+    color: rgb(53, 87, 53);
+    background-color: rgb(231, 223, 223);
+    margin-bottom: 5px;
+    font:normal 16px 'Rubik Wet Paint', cursive;
+}
+
+.info-text {
+    margin: 30px;
+}
+
+.btn {
+    border: 3px solid gray;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    block-size: 60px;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
