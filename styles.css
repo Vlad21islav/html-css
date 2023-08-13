@@ -3,7 +3,7 @@
 body {
     background-color: rgb(223, 223, 231);
     color: goldenrod;
-    font:normal 16px 'Rubik Wet Paint', cursive;
+    font: normal 16px 'Rubik Wet Paint', cursive;
 }   
 
 .MP_icon {
@@ -40,7 +40,7 @@ body {
 
 a {
     color: black;
-    text-decoration: none;
+    font: normal 20px normal;
 }
 
 a:visited {
