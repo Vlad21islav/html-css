@@ -6,6 +6,10 @@ body {
     font: normal 16px 'Rubik Wet Paint', cursive;
 }   
 
+h1 {
+    width: 400px;
+}
+
 .MP_icon {
     margin-top: 5%;
     margin-left: 5%;
