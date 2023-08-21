@@ -6,8 +6,11 @@ body {
     font: normal 16px 'Rubik Wet Paint', cursive;
 }   
 
-h1 {
-    width: 400px;
+hr {
+    height: 2px;
+    width: 500px;
+    margin-left: 0px;
+    background-color: gray;
 }
 
 .MP_icon {
